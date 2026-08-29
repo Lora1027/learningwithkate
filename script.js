@@ -2,7 +2,7 @@
 // 1) Create a Google Form with fields matching the booking form.
 // 2) Paste its public "formResponse" URL below if you want direct Google Forms submission.
 // For now, the site creates an email request so it is immediately testable.
-const TEACHER_EMAIL = "djreal85@gmail.com";
+const TEACHER_EMAIL = "catherine.nisnisan@gmail.com";
 const bookingForm = document.getElementById("bookingForm");
 const success = document.getElementById("success");
 const fallback = document.getElementById("emailFallback");
