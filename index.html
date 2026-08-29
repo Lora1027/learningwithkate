@@ -64,19 +64,19 @@
 <section class="blue-section" id="book">
   <div class="wrap booking-grid">
     <div><p class="kicker light">READY TO START?</p><h2>Book your first English lesson.</h2><p>Choose a lesson and request a convenient time. Your booking request will be sent to Kate for confirmation.</p><div class="mini-list"><span>✓ 45-minute private lesson</span><span>✓ Online</span><span>✓ Beginner to advanced</span></div></div>
-    <form class="booking" id="bookingForm">
-      <h3>Lesson request</h3>
-      <label>Lesson type<select id="lesson" required><option value="">Choose one</option><option>Conversation English</option><option>Reading & Writing</option><option>School & Exam Prep</option></select></label>
-      <div class="two"><label>Preferred date<input id="date" type="date" required></label><label>Preferred time<select id="time" required><option value="">Choose time</option><option>9:00 AM</option><option>10:00 AM</option><option>11:00 AM</option><option>1:00 PM</option><option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option><option>5:00 PM</option></select></label></div>
-      <label>Your name<input id="name" required placeholder="Your full name"></label>
-      <label>Email<input id="email" type="email" required placeholder="you@example.com"></label>
-      <label>English level<select id="level" required><option>Beginner</option><option>Elementary</option><option>Intermediate</option><option>Upper-intermediate</option><option>Advanced</option><option>Not sure</option></select></label>
-      <label>What would you like help with?<textarea id="message" placeholder="Tell Kate about your goals..."></textarea></label>
-      <button class="pill full" type="submit">Send booking request</button>
-      <p class="form-note">This is a booking request, not an automatic appointment confirmation.</p>
-      <div class="success" id="success" hidden>🎉 Thanks! Your request is ready to send. Please use the email option shown below until your Google Form is connected.</div>
-      <a id="emailFallback" class="email-fallback" hidden></a>
-    </form>
+    <div class="booking google-booking">
+      <h3>Book a Lesson</h3>
+      <p class="embed-intro">Complete the form below and Kate will contact you to confirm your lesson.</p>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfSP51JLjREdLZ70vs7lwD6Dm-YKnW9vN9fZhOIbXSsyvcgZg/viewform?embedded=true"
+        title="Learning With Kate — Book a Lesson"
+        loading="lazy"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        Loading…
+      </iframe>
+    </div>
   </div>
 </section>
 
