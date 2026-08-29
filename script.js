@@ -1,4 +1,8 @@
 // Booking configuration
+// Change ONLY this email address later; the Contact section and booking requests
+// will automatically use the same address.
+const TEACHER_EMAIL = "catherine.nisnisan@gmail.com";
+
 // 1) Create a Google Form with fields matching the booking form.
 // 2) Paste its public "formResponse" URL below if you want direct Google Forms submission.
 // For now, the site creates an email request so it is immediately testable.
@@ -60,3 +64,9 @@ document.querySelector(".menu").addEventListener("click", () => {
   nav.style.flexDirection = "column";
   nav.style.alignItems = "stretch";
 });
+
+
+const teacherEmailElement = document.getElementById("teacherEmail");
+if (teacherEmailElement) {
+  teacherEmailElement.textContent = TEACHER_EMAIL;
+}
